@@ -30,7 +30,7 @@ class ItemsController extends GetxController {
       'date': date,
     });
     await timeLineBox.add({
-      'title': 'Added a $typeOfItem habit',
+      'title': 'Added $title',
       'date': DateTime.now().toLocal(),
       'type': 'just-added'
     });
